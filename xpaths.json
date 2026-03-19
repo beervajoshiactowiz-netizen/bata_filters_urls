@@ -1,0 +1,5 @@
+{
+  "brands_path": "//span[@class='cc-tile-product-brand']//text()",
+  "discount_path": "//div[@name='discount']//a/@data-refinement-value",
+  "sizes_path": "//div[@name='size']//a/@data-refinement-value"
+}
