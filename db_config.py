@@ -16,6 +16,7 @@ def create_table(table_name):
         create table if not exists {table_name} (
         id  INT PRIMARY KEY AUTO_INCREMENT,
         brand VARCHAR(100),
+        color VARCHAR(100),
         size VARCHAR(100),
         discount VARCHAR(100),
         url VARCHAR(500)
