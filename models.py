@@ -5,8 +5,9 @@ import json
 
 #products model
 class Products(BaseModel):
-    size:str
     brand:str
+    color:str
+    size: str
     discount:str
     url:str
 
